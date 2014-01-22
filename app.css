@@ -1,0 +1,93 @@
+html {
+  
+  background: url(ivan.rodriguez.2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media  (min-width: 700px){
+  header > a {
+    
+    margin-left:12px;
+    font-family: "museo-sans",sans-serif;
+      color:white;
+      font-weight: 100; 
+      text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  h1 {
+    font-family: "museo-sans",sans-serif;
+    color:white;
+    font-weight: 300; 
+    margin-left:10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width:250px;
+  }
+
+  .main-text {
+    font-family: "museo-sans",sans-serif;
+    color:white;
+    padding: 15px 15px;
+    margin-right:100px;
+    position:absolute;
+    bottom:50px;
+    left:10px;
+    width:350px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media   (max-width: 699px){
+  header > a {
+    
+    margin-left:12px;
+    font-family: "museo-sans",sans-serif;
+    color:white;
+    font-weight: 100; 
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  h1 {
+    font-family: "museo-sans",sans-serif;
+    color:white;
+    font-weight: 300; 
+    margin-left:10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width:200px;
+  }
+
+  .main-text {
+    font-family: "museo-sans",sans-serif;
+  color:white;
+    padding:2px;
+    margin-right:5px;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  header {
+    margin-bottom:40px;
+  }
+
+
+}
+
+.wrapper{
+
+  position:relative;
+}
+
+a {
+  
+  color:white;
+  text-decoration: underline;
+  
+}
+
+a:hover {
+  
+  text-decoration: none;
+  
+}
